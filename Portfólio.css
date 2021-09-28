@@ -1,0 +1,111 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color:#070724 ;
+    font-family: sans-serif;
+} 
+
+
+
+.container {
+    background-color: whitesmoke;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    color: black;
+    padding: 64px;
+}
+
+.perfil {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.minha-foto {
+    border-radius: 460px;
+    max-height: 160px;
+}
+
+.titulo-subtitulo {
+    margin-left: 16px;
+}
+
+.titulo-subtitulo h1 {
+    font-style: italic;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 24px;
+    padding: 8px 16px;
+    background: #ecf4ff;
+    border-radius: 100px;
+}
+
+.separa {
+    display: flex;
+    
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between
+}
+
+.projetos {
+    background-color: #3f5269 ;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    margin-top: 25px;
+    padding: 32px;
+    padding-top: 25px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+
+
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulo-redes {
+    list-style: none;
+    font-size: 25px;
+}
+
+.item1 {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.titulo-redes a {
+    text-decoration: none;
+}
+
+.dark {
+    background-color: rgb(32, 32, 32);
+}
+
+.dark .container {
+    background: black;
+    color: white;
+}
+
+.dark .projetos {
+    background: rgb(32, 32, 32);
+    color: white;
+}
+
+.dark .tema button {
+    background-color: rgb(32, 32, 32) ;
+    color: whitesmoke;
+    border: 2px solid whitesmoke
+}
